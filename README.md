@@ -11,14 +11,7 @@ Implementing IAM best practices is essential to ensure the security of your AWS 
 
 1. [Enforcing Least Privilege Access: IAM policies should grant the least privilege access required to perform specific actions. By granting users only the permissions they need, you can reduce the risk of accidental or intentional misuses of resources.] 2. [Setting up Multi-Factor Authentication (MFA) for users and roles: MFA adds an extra layer of security to the authentication process, making it harder for attackers to gain unauthorized access. You should require MFA for all users and roles that have access to sensitive resources.] 3. [Using IAM Roles instead of IAM Users for applications and services: IAM roles provide temporary security credentials for applications and services to access AWS resources. Unlike IAM users, roles do not have permanent security credentials and cannot make direct requests to AWS services. Using roles instead of users for applications and services reduces the risk of security breaches.] 4. [Periodic Review of IAM policies and users' access: You should review your IAM policies and user access regularly to ensure that they are up-to-date and aligned with your security policies. This includes removing unnecessary permissions and disabling or removing inactive users.]
 
-## About
 
-Place the code for this article in this repository.
-The original article export is saved as `article.md`.
-
-## Files
-
-Add your `.ipynb`, `.py`, `.yaml`, `.js`, `.ts`, or other project files here.
 
 ## Disclaimer
 
